@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+<meta name='viewport' content ='width=device-width, initial-scale=1'>
+<title>Snakes and Ladders</title>
+<link href="http://fonts.cdnfonts.com/css/baby-twice" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel='stylesheet' href='style.css'>
+</head>
+
+<body class='d-flex flex-column'>
+    <div class='p-2' id='header'>
+        <h1>Snakes and Ladders</h1>
+    </div>
+
+    <main class='d-flex flex-row'>
+        <!--Location of Divs for the Board-->
+    <div id='board' class='d-flex flex-column'>
+        <div id='row-1'>
+            <div class='row'>
+                <div class='col-sm' id='div-21'>
+                    <button type='button' id='button21'>21</button>
+                </div>
+                <div class='col-sm' id='div-22'>
+                    <button type='button' id='button22'>22</button>
+                </div>
+                <div class='col-sm' id='div-23'>
+                    <button type='button' id='button23'>23</button>
+                </div>
+                <div class='col-sm' id='div-24'>
+                    <button type='button' id='button24'>24</button>
+                </div>
+                <div class='col-sm' id='div-25'>
+                    <button type='button' id='button25'>25</button>
+                </div>
+            </div>
+        </div>
+        <div id='row-2'>
+            <div class='row'>
+                <div class='col-sm' id='div-20'>
+                    <button type='button' id='button20'>20</button>
+                </div>
+                <div class='col-sm' id='div-19'>
+                    <button type='button' id='button19'>19</button>
+                </div>
+                <div class='col-sm' id='div-18'>
+                    <button type='button' id='button18'>18</button>
+                </div>
+                <div class='col-sm' id='div-17'>
+                    <button type='button' id='button17'>17</button>
+                </div>
+                <div class='col-sm' id='div-16'>
+                    <button type='button' id='button16'>16</button>
+                </div>
+            </div>
+        </div>
+        <div id='row-3'>
+            <div class='row'>
+                <div class='col-sm' id='div-11'>
+                    <button type='button' id='button11'>11</button>
+                </div>
+                <div class='col-sm' id='div-12'>
+                    <button type='button' id='button12'>12</button>
+                </div>
+                <div class='col-sm' id='div-13'>
+                    <button type='button' id='button13'>13</button>
+                </div>
+                <div class='col-sm' id='div-14'>
+                    <button type='button' id='button14'>14</button>
+                </div>
+                <div class='col-sm' id='div-15'>
+                    <button type='button' id='button15'>15</button>
+                </div>
+            </div>
+        </div>
+        <div id='row-4'>
+            <div class='row'>
+                <div class='col-sm' id='div-10'>
+                    <button type='button' id='button10'>10</button>
+                </div>
+                <div class='col-sm' id='div-9'>
+                    <button type='button' id='button9'>9</button>
+                </div>
+                <div class='col-sm' id='div-8'>
+                    <button type='button' id='button8'>8</button>
+                </div>
+                <div class='col-sm' id='div-7'>
+                    <button type='button' id='button7'>7</button>
+                </div>
+                <div class='col-sm' id='div-6'>
+                    <button type='button' id='button6'>6</button>
+                </div>
+            </div>
+        </div>
+        <div id='row-5'>
+            <div class='row'>
+                <div class='col-sm' id='div-1'>
+                    <button type='button' id='button1'>1</button>
+                </div>
+                <div class='col-sm' id='div-2'>
+                    <button type='button' id='button2'>2</button>
+                </div>
+                <div class='col-sm' id='div-3'>
+                    <button type='button' id='button3'>3</button>
+                </div>
+                <div class='col-sm' id='div-4'>
+                    <button type='button' id='button4'>4</button>
+                </div>
+                <div class='col-sm' id='div-5'>
+                    <button type='button' id='button5'>5</button>
+                </div>
+            </div>
+        </div>
+    <!--Images that go on top of the board-->
+    <img id='ladder-1' src='Assets\ladder-1.png'>
+    <img id='snake-1' src='Assets\Snake-1.png'>
+    <!--<img id='snake-2' src='Assets\Snake-2.png'>-->
+    <img id='ladder-2' src='Assets\ladder-1.png'>
+    <img id='character' src='Assets\character-1.png'>
+    </div>
+    <!--Location of Information for side-bar-->
+    <div id='side-bar' class='d-flex flex-column'>
+        <h3>Directions:</h3>
+        <p class='directions'>You have 10 turns to complete the game! Roll the Dice and move you character forward. Watch out for the snakes! Hope for the ladders!</p>
+        <button>Restart Game</button>
+        <img id='dice'/>
+        <button id='roll'>Roll Dice</button>
+    </div>
+</main>
+<script src='app.js'></script>
+</body>
+
+</html>

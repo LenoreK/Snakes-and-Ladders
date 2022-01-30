@@ -1,0 +1,491 @@
+body {
+    background-color: rosybrown;
+}
+
+#header {
+    height: 8em;
+    width: 100%;
+    flex-grow: 1;
+    background-color: whitesmoke;
+    border-bottom: 3px solid black;
+}
+
+h1 {
+    margin: 0 auto;
+    width: 9em;
+    font-size: 50px;
+    text-align: center;
+    padding-top: .8em;
+}
+
+/*Container for Board / Instructions*/
+
+main {
+display: flex;
+align-items: stretch;
+flex-direction: column;
+background-color: rosybrown;
+padding: 1em;
+}
+
+#side-bar {
+    width: 100%;
+    height: 17em;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+h3 {
+    border-bottom: 1px solid black;
+    padding: 3px;
+}
+
+p {
+    text-align: center;
+    margin: 1em;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    padding: 1em;
+}
+
+button {
+    height: 5em;
+    width: 10em;
+}
+
+#board {
+    height: 27em;
+    width: 100%;
+    flex-grow: 5;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/*Elements Added on Top of Board*/
+#snake-1 {
+    position: absolute;
+    left: 2.5em;
+    height: 150px;
+    width: 230px;
+    top: 15.7em;
+}
+
+#snake-2 {
+    position: absolute;
+    bottom: 3.3em;
+    height:250px;
+    width: 190px;
+    left: 14em;
+}
+
+#ladder-1 {
+    position: absolute;
+    height: 200px;
+    bottom: 3.2em;
+    left: 22.1em;
+}
+
+#ladder-2 {
+    position: absolute;
+    height: 150px;
+    left: 16.8em;
+    top: 9.6em;
+}
+
+#character {
+    position: absolute;
+    bottom: 4em;
+    height: 5em;
+    width: 7em;
+    left: 0.3em;
+}
+
+/*Rows of Snakes and Ladders Board*/
+#row-1 {
+    height: 5em;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#row-2 {
+    height: 5em;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#row-3 {
+    height: 5em;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#row-4 {
+    height: 5em;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#row-5 {
+    height: 5em;
+    width: 400px;
+    margin: 0 auto;
+}
+
+/*Divs for Snakes and Ladders Board*/
+#div-1 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: aquamarine
+}
+
+#div-2 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: greenyellow
+}
+
+#div-3 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: blueviolet
+
+}
+
+#div-4 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: rgb(133, 16, 133)
+}
+
+#div-5 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: aquamarine
+}
+
+#div-6 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: greenyellow
+}
+
+#div-7 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: blueviolet
+}
+
+#div-8 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: rgb(133, 16, 133)
+}
+
+#div-9 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: aquamarine
+}
+
+#div-10 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: greenyellow
+}
+
+#div-11 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: blueviolet
+}
+
+#div-12 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: rgb(133, 16, 133)
+}
+
+#div-13 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: aquamarine
+}
+
+#div-14 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: greenyellow
+}
+
+#div-15 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: blueviolet
+}
+
+#div-16 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: rgb(133, 16, 133)
+}
+
+#div-17 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: aquamarine
+}
+
+#div-18 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: greenyellow
+}
+
+#div-19 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: blueviolet
+}
+
+#div-20 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: rgb(133, 16, 133)
+}
+
+#div-21 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: aquamarine
+}
+
+#div-22 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: greenyellow
+}
+
+#div-23 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: blueviolet
+}
+
+#div-24 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: rgb(133, 16, 133)
+}
+
+#div-25 {
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-color: aquamarine
+}
+
+/*Buttons for Divs*/
+#button25 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+    }
+
+ #button24 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+        }
+
+ #button23 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+            }
+
+ #button22 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+                        }
+
+#button21 {
+border: transparent;
+background-color: transparent;
+height: 4em;
+width: 3.5em;
+}
+
+#button20 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+}
+
+#button19 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+}
+
+#button18 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+}
+
+#button17 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+}
+
+#button16 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+}
+
+#button15 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+}
+
+#button14 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+}
+
+#button13 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+}
+
+#button12 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+}
+
+#button11 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+}
+
+#button10 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+}
+
+#button9 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+}
+
+#button8 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+}
+
+#button7 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+}
+
+#button6 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+}
+
+#button5 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+}
+
+#button4 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+}
+
+#button3 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+}
+
+#button2 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+}
+
+#button1 {
+    border: transparent;
+    background-color: transparent;
+    height: 4em;
+    width: 3.5em;
+}
