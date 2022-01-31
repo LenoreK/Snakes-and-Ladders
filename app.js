@@ -33,6 +33,7 @@ let button25 = document.getElementById('button25');
 let character = document.getElementById('character');
 let ladder1 = document.getElementById('ladder-1');
 let ladder2 = document.getElementById('ladder-2');
+let snake1 = document.getElementById('snake-1')
 
 button1.addEventListener('click', moveCharacterToButton);
 button2.addEventListener('click', moveCharacterToButton);
@@ -109,17 +110,29 @@ function moveCharacterToButton(event) {
 }
 
 function placement() {
-    let positionButton2 = {
+    let position1 = {
         top: Button24.top + window.pageYOffset,
         left: Button24.left + window.pageXOffset
     };
     
-    ladder2.style.top = positionButton2.top + 10 + 'px'
-    ladder2.style.left = positionButton2.left - 20 + 'px'
+    ladder2.style.top = position1.top + 10 + 'px'
+    ladder2.style.left = position1.left - 20 + 'px'
 
-    let positionButton3 = {
-        
-    }
+    let position2 = {
+        top: Button20.top + window.pageYOffset,
+        left: Button20.left + window.pageXOffset
+    };
+
+    snake1.style.top = position2.top + 25 + 'px'
+    snake1.style.left = position2.left + 5 + 'px'
+
+    let position3 = {
+        top: Button6.top + window.pageYOffset,
+        left: Button6.left + window.pageXOffset
+    };
+    
+    ladder1.style.top = position3.top - 30 + 'px'
+    ladder1.style.left = position3.left - 20 + 'px'
 }
 
 placement()
