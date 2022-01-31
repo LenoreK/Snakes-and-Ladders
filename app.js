@@ -133,6 +133,15 @@ function placement() {
     
     ladder1.style.top = position3.top - 30 + 'px'
     ladder1.style.left = position3.left - 20 + 'px'
+
+    let position4 = {
+        top: Button1.top + window.pageYOffset,
+        left: Button1.left + window.pageXOffset
+    };
+    
+    character.style.top = position4.top + 'px'
+    character.style.left = position4.left -28 + 'px'
+
 }
 
 placement()
