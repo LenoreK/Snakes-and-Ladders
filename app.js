@@ -63,7 +63,9 @@ button22.addEventListener('click', moveCharacterToButton);
 button23.addEventListener('click', moveCharacterToButton);
 button24.addEventListener('click', moveCharacterToButton);
 button25.addEventListener('click', moveCharacterToButton);
+button25.addEventListener('click', winner);
 restart.addEventListener('click', Restart);
+roll.addEventListener('click', rollDice)
 
 //All the locations of the elements on the screen
 let Button1 = button1.getBoundingClientRect();
@@ -93,7 +95,7 @@ let Button24 = button24.getBoundingClientRect();
 let Button25 = button25.getBoundingClientRect();
 let Character = character.getBoundingClientRect();
 
-//Restart Button Starts the Game Over Again
+//Restart Button - Functiion that refreshes the page to start the Game Over Again
 function Restart () {
     window.location.reload()
 }
@@ -105,6 +107,15 @@ let randomNumber = (Math.floor(Math.random()*6) + 1);
 let diceImage = 'Assets/Dice' + '-' + randomNumber + '.png';
 
 document.querySelectorAll('img')[4].setAttribute('src', diceImage);
+
+//Function to Roll the Dice
+function rollDice(){
+    let randomNumber = (Math.floor(Math.random()*6) + 1);
+
+    let diceImage = 'Assets/Dice' + '-' + randomNumber + '.png';
+    
+    document.querySelectorAll('img')[4].setAttribute('src', diceImage);
+}
 
 //Game Board Button Functionality
 function moveCharacterToButton(event) {
@@ -119,6 +130,7 @@ function moveCharacterToButton(event) {
     character.style.left = positionButton.left - 28 + 'px'
 }
 
+//Function to move the placement of all the items
 function placement() {
     let position1 = {
         top: Button24.top + window.pageYOffset,
@@ -154,4 +166,14 @@ function placement() {
 
 }
 
+//invoking the placement function
 placement()
+
+//Adding Alert at the end of the game
+function winner() {
+    alert('You Won!')
+}
+
+function loser() {
+    
+}
