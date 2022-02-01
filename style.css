@@ -320,6 +320,7 @@ button {
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
     }
 
  #button24 {
@@ -327,6 +328,7 @@ button {
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
         }
 
  #button23 {
@@ -334,6 +336,7 @@ button {
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
             }
 
  #button22 {
@@ -341,6 +344,7 @@ button {
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
                         }
 
 #button21 {
@@ -348,6 +352,7 @@ border: transparent;
 background-color: transparent;
 height: 4em;
 width: 3.5em;
+z-index: 5;
 }
 
 #button20 {
@@ -355,6 +360,7 @@ width: 3.5em;
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
 }
 
 #button19 {
@@ -362,6 +368,7 @@ width: 3.5em;
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
 }
 
 #button18 {
@@ -369,6 +376,7 @@ width: 3.5em;
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
 }
 
 #button17 {
@@ -376,6 +384,7 @@ width: 3.5em;
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
 }
 
 #button16 {
@@ -383,6 +392,7 @@ width: 3.5em;
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
 }
 
 #button15 {
@@ -390,6 +400,7 @@ width: 3.5em;
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
 }
 
 #button14 {
@@ -397,6 +408,7 @@ width: 3.5em;
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
 }
 
 #button13 {
@@ -404,6 +416,7 @@ width: 3.5em;
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
 }
 
 #button12 {
@@ -411,6 +424,7 @@ width: 3.5em;
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
 }
 
 #button11 {
@@ -418,6 +432,7 @@ width: 3.5em;
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
 }
 
 #button10 {
@@ -425,6 +440,7 @@ width: 3.5em;
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
 }
 
 #button9 {
@@ -432,6 +448,7 @@ width: 3.5em;
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
 }
 
 #button8 {
@@ -439,6 +456,7 @@ width: 3.5em;
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
 }
 
 #button7 {
@@ -446,6 +464,7 @@ width: 3.5em;
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
 }
 
 #button6 {
@@ -453,6 +472,7 @@ width: 3.5em;
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
 }
 
 #button5 {
@@ -460,6 +480,7 @@ width: 3.5em;
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
 }
 
 #button4 {
@@ -467,6 +488,7 @@ width: 3.5em;
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
 }
 
 #button3 {
@@ -474,6 +496,7 @@ width: 3.5em;
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
 }
 
 #button2 {
@@ -481,6 +504,7 @@ width: 3.5em;
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
 }
 
 #button1 {
@@ -488,4 +512,5 @@ width: 3.5em;
     background-color: transparent;
     height: 4em;
     width: 3.5em;
+    z-index: 5;
 }

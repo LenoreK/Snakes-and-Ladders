@@ -1,9 +1,6 @@
-//Make an array or function out of these elements
 //add z-indexes
 //add math.index for dice
-//add instruction
 //make restart game and roll dice functional
-//fix board so it looks the same in different settings
 
 let button1 = document.getElementById('button1');
 let button2 = document.getElementById('button2');
@@ -34,6 +31,8 @@ let character = document.getElementById('character');
 let ladder1 = document.getElementById('ladder-1');
 let ladder2 = document.getElementById('ladder-2');
 let snake1 = document.getElementById('snake-1')
+let roll = document.getElementById('roll')
+let restart = document.getElementById('restart')
 
 button1.addEventListener('click', moveCharacterToButton);
 button2.addEventListener('click', moveCharacterToButton);
