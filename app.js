@@ -1,7 +1,10 @@
 //add z-indexes
 //add math.index for dice
 //make restart game and roll dice functional
+//Make the page restart after 10 turns
 
+
+//All the Elements Needs for the Javscript
 let button1 = document.getElementById('button1');
 let button2 = document.getElementById('button2');
 let button3 = document.getElementById('button3');
@@ -34,6 +37,7 @@ let snake1 = document.getElementById('snake-1')
 let roll = document.getElementById('roll')
 let restart = document.getElementById('restart')
 
+//All the Event Listeners Needed for the Buttons
 button1.addEventListener('click', moveCharacterToButton);
 button2.addEventListener('click', moveCharacterToButton);
 button3.addEventListener('click', moveCharacterToButton);
@@ -59,7 +63,9 @@ button22.addEventListener('click', moveCharacterToButton);
 button23.addEventListener('click', moveCharacterToButton);
 button24.addEventListener('click', moveCharacterToButton);
 button25.addEventListener('click', moveCharacterToButton);
+restart.addEventListener('click', Restart);
 
+//All the locations of the elements on the screen
 let Button1 = button1.getBoundingClientRect();
 let Button2 = button2.getBoundingClientRect();
 let Button3 = button3.getBoundingClientRect();
@@ -87,15 +93,20 @@ let Button24 = button24.getBoundingClientRect();
 let Button25 = button25.getBoundingClientRect();
 let Character = character.getBoundingClientRect();
 
+//Restart Button Starts the Game Over Again
+function Restart () {
+    window.location.reload()
+}
+
 //Dice Button Functionality
-//Generate Random Number from 1 to 6
 let randomNumber = (Math.floor(Math.random()*6) + 1);
+
 //Dice Images 1 through 6
 let diceImage = 'Assets/Dice' + '-' + randomNumber + '.png';
 
 document.querySelectorAll('img')[4].setAttribute('src', diceImage);
 
-//Board Button Functionality
+//Game Board Button Functionality
 function moveCharacterToButton(event) {
     console.log(event.target)
     let rectangle = event.target.getBoundingClientRect()
