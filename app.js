@@ -33,9 +33,10 @@ let button25 = document.getElementById('button25');
 let character = document.getElementById('character');
 let ladder1 = document.getElementById('ladder-1');
 let ladder2 = document.getElementById('ladder-2');
-let snake1 = document.getElementById('snake-1')
-let roll = document.getElementById('roll')
-let restart = document.getElementById('restart')
+let snake1 = document.getElementById('snake-1');
+let roll = document.getElementById('roll');
+let restart = document.getElementById('restart');
+let board = document.getElementById('board');
 
 //All the Event Listeners Needed for the Buttons
 button1.addEventListener('click', moveCharacterToButton);
@@ -174,6 +175,39 @@ function winner() {
     alert('You Won!')
 }
 
+//Making a function for the loser - Does not work yet
 function loser() {
-    
+    let a = button1.innerHTML++;
+    let b = button2.innerHTML++;
+    let c = button3.innerHTML++;
+    let d = button4.innerHTML++;
+    let e = button5.innerHTML++;
+    let f = button6.innerHTML++; 
+    let g = button7.innerHTML++;
+    let h = button8.innerHTML++;
+    let i = button9.innerHTML++;
+    let j = button10.innerHTML++;
+    let k = button11.innerHTML++;
+    let l = button12.innerHTML++; 
+    let m = button13.innerHTML++;
+    let n = button14.innerHTML++;
+    let o = button15.innerHTML++;
+    let p = button16.innerHTML++;
+    let q = button17.innerHTML++;
+    let r = button18.innerHTML++; 
+    let s = button19.innerHTML++;
+    let t = button20.innerHTML++;
+    let u = button21.innerHTML++;
+    let v = button22.innerHTML++;
+    let w = button23.innerHTML++;
+    let x = button24.innerHTML++; 
+    let y = button25.innerhtml++;
+
+    console.log(a + b + c + d + e + f + g + h + i + j + k + l + m + n + p + q + r + s + t + u + v + w + x + y)
+
+    if ((a + b + c + d + e + f + g + h + i + j + k + l + m + n + p + q + r + s + t + u + v + w + x + y) >= 10) {
+        alert('You Lost!');
+    }
 }
+
+loser()
