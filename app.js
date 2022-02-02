@@ -37,33 +37,259 @@ let snake1 = document.getElementById('snake-1');
 let roll = document.getElementById('roll');
 let restart = document.getElementById('restart');
 let board = document.getElementById('board');
+let countClicks = 0
 
 //All the Event Listeners Needed for the Buttons
 button1.addEventListener('click', moveCharacterToButton);
+button1.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button2.addEventListener('click', moveCharacterToButton);
+button2.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button3.addEventListener('click', moveCharacterToButton);
+button3.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button4.addEventListener('click', moveCharacterToButton);
+button4.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button5.addEventListener('click', moveCharacterToButton);
+button5.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button6.addEventListener('click', moveCharacterToButton);
+button6.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button7.addEventListener('click', moveCharacterToButton);
+button7.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button8.addEventListener('click', moveCharacterToButton);
+button8.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button9.addEventListener('click', moveCharacterToButton);
+button9.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button10.addEventListener('click', moveCharacterToButton);
+button10.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button11.addEventListener('click', moveCharacterToButton);
+button11.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button12.addEventListener('click', moveCharacterToButton);
+button12.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button13.addEventListener('click', moveCharacterToButton);
+button13.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button14.addEventListener('click', moveCharacterToButton);
+button14.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button15.addEventListener('click', moveCharacterToButton);
+button15.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button16.addEventListener('click', moveCharacterToButton);
+button16.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button17.addEventListener('click', moveCharacterToButton);
+button17.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button18.addEventListener('click', moveCharacterToButton);
+button18.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button19.addEventListener('click', moveCharacterToButton);
+button19.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button20.addEventListener('click', moveCharacterToButton);
+button20.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button21.addEventListener('click', moveCharacterToButton);
+button21.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button22.addEventListener('click', moveCharacterToButton);
+button22.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button23.addEventListener('click', moveCharacterToButton);
+button23.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button24.addEventListener('click', moveCharacterToButton);
+button24.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button25.addEventListener('click', moveCharacterToButton);
+button25.addEventListener('click', function(){
+    countClicks += 1;
+    function loser() {
+        if ((countClicks) >= 10) {
+            alert('You Lost!');
+        }
+    }
+    loser()
+})
 button25.addEventListener('click', winner);
 restart.addEventListener('click', Restart);
 roll.addEventListener('click', rollDice)
@@ -177,37 +403,7 @@ function winner() {
 
 //Making a function for the loser - Does not work yet
 function loser() {
-    let a = button1.innerHTML++;
-    let b = button2.innerHTML++;
-    let c = button3.innerHTML++;
-    let d = button4.innerHTML++;
-    let e = button5.innerHTML++;
-    let f = button6.innerHTML++; 
-    let g = button7.innerHTML++;
-    let h = button8.innerHTML++;
-    let i = button9.innerHTML++;
-    let j = button10.innerHTML++;
-    let k = button11.innerHTML++;
-    let l = button12.innerHTML++; 
-    let m = button13.innerHTML++;
-    let n = button14.innerHTML++;
-    let o = button15.innerHTML++;
-    let p = button16.innerHTML++;
-    let q = button17.innerHTML++;
-    let r = button18.innerHTML++; 
-    let s = button19.innerHTML++;
-    let t = button20.innerHTML++;
-    let u = button21.innerHTML++;
-    let v = button22.innerHTML++;
-    let w = button23.innerHTML++;
-    let x = button24.innerHTML++; 
-    let y = button25.innerhtml++;
-
-    console.log(a + b + c + d + e + f + g + h + i + j + k + l + m + n + p + q + r + s + t + u + v + w + x + y)
-
-    if ((a + b + c + d + e + f + g + h + i + j + k + l + m + n + p + q + r + s + t + u + v + w + x + y) >= 10) {
+    if ((countClicks) >= 10) {
         alert('You Lost!');
     }
 }
-
-loser()
